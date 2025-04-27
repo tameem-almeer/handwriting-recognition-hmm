@@ -1,6 +1,6 @@
-# Handwriting Recognition: HMM vs CNN Comparison
+# Machine Learning Models for Handwriting Recognition: Hidden Markov Models (HMM) 
 
-This project compares two popular machine learning models for handwriting recognition: **Hidden Markov Models (HMM)** and **Convolutional Neural Networks (CNN)**. The goal is to evaluate the performance of these models using a dataset of handwritten English characters, assessing their accuracy and suitability for optical character recognition (OCR) tasks.
+This project focuses on handwriting recognition using **Hidden Markov Models (HMM)** as the primary machine learning approach. Additionally, **Convolutional Neural Networks (CNN)** were also implemented to compare their performance. The goal is to evaluate both models on a dataset of handwritten English characters, assessing their accuracy and suitability for optical character recognition (OCR) tasks.
 
 ## Project Overview
 
