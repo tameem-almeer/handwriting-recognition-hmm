@@ -34,7 +34,29 @@ This project compares two popular machine learning models for handwriting recogn
 - **Model Types**:
   - Hidden Markov Model (HMM)
   - Convolutional Neural Network (CNN)
+## Dataset Used: English Handwriting OCR Data
 
+In this project, the dataset used for handwriting recognition is sourced from **Nexdata** and is titled **14511_Images_English_Handwriting_OCR_Data**. This dataset contains handwritten images in English, which are used for training an Optical Character Recognition (OCR) model to classify different characters.
+
+### Dataset Overview:
+- **Name**: 14511_Images_English_Handwriting_OCR_Data
+- **Source**: Nexdata
+- **Type**: Image dataset containing handwritten English characters.
+- **Content**: The dataset consists of images representing handwritten English letters (both uppercase and lowercase).
+- **Size**: The dataset contains 14,511 images in total, which are used for training.
+
+### Dataset Loading:
+The dataset is loaded using the `load_dataset` function from the `datasets` library. We specifically use the 'train' split for training the model. 
+
+
+```bash
+https://huggingface.co/datasets/Nexdata/14511_Images_English_Handwriting_OCR_Data
+```
+
+```python
+# Load dataset
+dataset = load_dataset("Nexdata/14511_Images_English_Handwriting_OCR_Data", split='train')
+```
 ## Results
 
 - The **HMM model** achieved an accuracy of **50%**.
@@ -53,7 +75,7 @@ This project compares two popular machine learning models for handwriting recogn
 
 ```bash
 git clone https://github.com/tameem-almeer/handwriting-recognition-hmm
-
+```
 
 
 
